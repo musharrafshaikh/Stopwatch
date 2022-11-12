@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(7, 33, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    color: aliceblue;
+    border: 2px solid black;
+
+}
+.digit{
+font-size: 150px;
+font-weight: bold;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+#button-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: blueviolet;
+
+}
+#reset{
+    background-color: red;
+}
+
+
